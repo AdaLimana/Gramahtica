@@ -1,0 +1,23 @@
+
+[Compilando]{
+
+	Para compilar usando o gcc (gcc *.c -c) e depois (gcc *.o -o (aqui vai o nome do executável, fica a seu crotério)).
+
+}
+
+[Usando]{
+
+	1 O programa ira perguntar (Quantos estados tem a gramática), usuário informa a quantidade e tecla enter;
+
+	2 O programa ira perguntar (Quantos caracter possui a gramática), usuário informa a quantidade e tecla enter;
+
+	3 O programa ira perguntar (Quais são os caracteres), o usuário ira informar um por um, exemplo informa "a" e tecla enter, após informa o outro caracter.
+
+	4 O programa ira perguntar (Quais são os identificadores de estado), o usuário ira informar um por um, exemplo informa "S" e tecla enter, após informa o outro identificador.
+
+	5 O programa ira perguntar (lendo determinado caracter em tal estado, vai para qual estado?), o usuári informará o estado que ele vai e teclar enter, se ele for para mais de um estado, o usuário informará um por vez, exemplo "S" enter "X", se 	não vai para mais nenhum estado ou não vai para nenhum, o usuáio informa "nenhum".
+
+	6 Depois de ter informado toda a gramática, o programa começará determinizar a mesma, ele fará estado por estado, para dar continuidade o usuário informa qualquer caracter e aperta enter, o mesmo acontece com a eliminação de estados mortos e inalcansáveis.
+
+}
+
